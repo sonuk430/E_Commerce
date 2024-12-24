@@ -1,0 +1,48 @@
+.cards_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* max-height: 300px; */
+  width: 250px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.cards_wrapper img {
+  width: 200px;
+}
+
+.stock_rating {
+  width: 90%;
+  height: 35px;
+  background-color: rgb(86, 50, 230);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.price {
+  width: 90%;
+  height: 35px;
+  background-color: rgb(56, 7, 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
